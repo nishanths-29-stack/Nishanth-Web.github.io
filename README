@@ -1,0 +1,98 @@
+# Web Development Practical Programs
+
+## Student Details
+
+**Student Name:** S.Nishanth
+
+**P.R.N. No:** 250200367
+
+**Year:** B.Tech 2nd Year
+
+**Section:** 7
+
+**Subject:** Web Development
+
+**Assignment:** HTML, CSS & JavaScript Practical Programs
+
+
+## Project Description
+
+This project contains practical programs based on HTML, CSS and JavaScript.
+
+The project provides a main dashboard from which different practical program sections can be accessed.
+
+
+## Project Sections
+
+### HTML Programs
+
+Total Programs: 15
+
+The HTML section contains programs related to:
+- HTML Fundamentals
+- Lists
+- Tables
+- Images and Hyperlinks
+- Forms
+- Audio and Video
+- Frames and Iframes
+- Semantic Elements
+- HTML5 Input Types
+- CSS Styling
+- Responsive Webpages
+- Bootstrap
+- Portfolio
+
+
+### CSS Programs
+
+Total Programs: 67
+
+The CSS section contains programs related to:
+- CSS Selectors
+- Colors and Backgrounds
+- Fonts and Text
+- Box Model
+- Width and Height
+- Positioning
+- Flexbox
+- Grid
+- Navigation Bar
+- Pseudo-classes
+- Pseudo-elements
+- Media Queries
+- Transitions
+- Animations
+
+
+### JavaScript Programs
+
+The JavaScript section contains basic JavaScript programs and practical categories:
+
+- Basic JavaScript Programs
+- Mini Projects
+- DOM Manipulation
+- JavaScript Events
+- Forms and Validation
+- Browser Objects & Browser Features
+- Web Storage
+
+
+## Folder Structure
+
+```text
+Practical_Project
+│
+├── index.html
+├── README.md
+│
+├── assets
+│   ├── images
+│   ├── audio
+│   └── video
+│
+├── html
+│
+├── css
+│
+└── JavaScript_Practical_FIXED
