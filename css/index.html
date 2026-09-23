@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Programs</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #dbeafe, #e9d5ff);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+        
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 18px;
+        }
+        
+        .container {
+            width: 92%;
+            max-width: 1200px;
+            margin: 35px auto;
+        }
+        
+        .programs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+            border-left: 6px solid #6366f1;
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.20);
+        }
+        
+        .number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #6366f1;
+        }
+        
+        .card h2 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 21px;
+        }
+        
+        .card p {
+            color: #666;
+            line-height: 1.5;
+            min-height: 45px;
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 11px 20px;
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            opacity: 0.85;
+        }
+        
+        .home {
+            text-align: center;
+            margin: 35px 0;
+        }
+        
+        .home a {
+            text-decoration: none;
+            background: #222;
+            color: white;
+            padding: 13px 28px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎨 CSS Programs</h1>
+        <p>CSS Practical Programs – 67 Experiments</p>
+    </header>
+
+    <div class="container">
+
+        <div class="programs">
+
+            <div class="card">
+                <div class="number">01</div>
+                <h2>Inline, Internal & External CSS</h2>
+                <p>Demonstrate three types of CSS.</p>
+                <a href="css-01.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">02</div>
+                <h2>CSS Selectors</h2>
+                <p>Different types of CSS selectors.</p>
+                <a href="css-02.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">03</div>
+                <h2>Colors, Backgrounds & Borders</h2>
+                <p>Demonstrate colors, backgrounds and borders.</p>
+                <a href="css-03.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">04</div>
+                <h2>Fonts & Text Formatting</h2>
+                <p>CSS font properties and text formatting.</p>
+                <a href="css-04.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">05</div>
+                <h2>CSS Box Model</h2>
+                <p>Margin, border, padding and content.</p>
+                <a href="css-05.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">06</div>
+                <h2>Width, Height & Sizing</h2>
+                <p>Different width, height and sizing properties.</p>
+                <a href="css-06.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">07</div>
+                <h2>CSS Positioning</h2>
+                <p>Static, relative, absolute, fixed and sticky.</p>
+                <a href="css-07.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">08</div>
+                <h2>Float & Clear</h2>
+                <p>Demonstrate float and clear properties.</p>
+                <a href="css-08.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">09</div>
+                <h2>Navigation Bar</h2>
+                <p>Create a navigation bar using CSS.</p>
+                <a href="css-09.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">10</div>
+                <h2>Pseudo Classes</h2>
+                <p>Hover, active, focus and visited states.</p>
+                <a href="css-10.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">11</div>
+                <h2>Pseudo Elements</h2>
+                <p>Before, after, first-letter and first-line.</p>
+                <a href="css-11.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">12</div>
+                <h2>Lists & Tables</h2>
+                <p>Style lists and tables using CSS.</p>
+                <a href="css-12.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">13</div>
+                <h2>Registration Form</h2>
+                <p>Design a registration form using CSS.</p>
+                <a href="css-13.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">14</div>
+                <h2>Flexbox</h2>
+                <p>Create layouts using CSS Flexbox.</p>
+                <a href="css-14.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">15</div>
+                <h2>CSS Grid</h2>
+                <p>Create layouts using CSS Grid.</p>
+                <a href="css-15.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">16</div>
+                <h2>Media Queries</h2>
+                <p>Create responsive layouts.</p>
+                <a href="css-16.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">17</div>
+                <h2>Transitions</h2>
+                <p>CSS transitions and effects.</p>
+                <a href="css-17.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">18</div>
+                <h2>Animations</h2>
+                <p>Create animations using CSS.</p>
+                <a href="css-18.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">19</div>
+                <h2>CSS Animation Effects</h2>
+                <p>Different CSS animation effects.</p>
+                <a href="css-19.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">20</div>
+                <h2>Advanced Selectors</h2>
+                <p>Advanced CSS selector techniques.</p>
+                <a href="css-20.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">21</div>
+                <h2>Attribute Selectors</h2>
+                <p>Style elements using attributes.</p>
+                <a href="css-21.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">22</div>
+                <h2>Combinator Selectors</h2>
+                <p>Child, descendant and sibling selectors.</p>
+                <a href="css-22.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">23</div>
+                <h2>Text Effects</h2>
+                <p>Text shadow, spacing and decoration.</p>
+                <a href="css-23.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">24</div>
+                <h2>Gradient Backgrounds</h2>
+                <p>Linear and radial gradients.</p>
+                <a href="css-24.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">25</div>
+                <h2>CSS Shadows</h2>
+                <p>Box shadow and text shadow.</p>
+                <a href="css-25.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">26</div>
+                <h2>Border Styles</h2>
+                <p>Different border styles and effects.</p>
+                <a href="css-26.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">27</div>
+                <h2>Rounded Corners</h2>
+                <p>Use border-radius properties.</p>
+                <a href="css-27.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">28</div>
+                <h2>CSS Opacity</h2>
+                <p>Demonstrate opacity and transparency.</p>
+                <a href="css-28.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">29</div>
+                <h2>CSS Overflow</h2>
+                <p>Visible, hidden, scroll and auto overflow.</p>
+                <a href="css-29.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">30</div>
+                <h2>CSS Display</h2>
+                <p>Block, inline and inline-block display.</p>
+                <a href="css-30.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">31</div>
+                <h2>CSS Visibility</h2>
+                <p>Visibility and hidden elements.</p>
+                <a href="css-31.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">32</div>
+                <h2>CSS Z-Index</h2>
+                <p>Layer elements using z-index.</p>
+                <a href="css-32.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">33</div>
+                <h2>CSS Cursor</h2>
+                <p>Different cursor styles.</p>
+                <a href="css-33.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">34</div>
+                <h2>CSS Lists</h2>
+                <p>Style ordered and unordered lists.</p>
+                <a href="css-34.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">35</div>
+                <h2>CSS Tables</h2>
+                <p>Style HTML tables using CSS.</p>
+                <a href="css-35.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">36</div>
+                <h2>CSS Forms</h2>
+                <p>Style input fields and forms.</p>
+                <a href="css-36.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">37</div>
+                <h2>Display Properties</h2>
+                <p>Demonstrate CSS display properties.</p>
+                <a href="css-37.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">38</div>
+                <h2>CSS Columns</h2>
+                <p>Create multi-column layouts.</p>
+                <a href="css-38.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">39</div>
+                <h2>CSS Object Fit</h2>
+                <p>Control image and video fitting.</p>
+                <a href="css-39.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">40</div>
+                <h2>CSS Variables</h2>
+                <p>Use custom CSS variables.</p>
+                <a href="css-40.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">41</div>
+                <h2>CSS calc()</h2>
+                <p>Use calculations in CSS.</p>
+                <a href="css-41.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">42</div>
+                <h2>CSS Functions</h2>
+                <p>Demonstrate useful CSS functions.</p>
+                <a href="css-42.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">43</div>
+                <h2>Responsive Images</h2>
+                <p>Create responsive images using CSS.</p>
+                <a href="css-43.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">44</div>
+                <h2>Responsive Navigation</h2>
+                <p>Create responsive navigation layouts.</p>
+                <a href="css-44.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">45</div>
+                <h2>Responsive Cards</h2>
+                <p>Create responsive card layouts.</p>
+                <a href="css-45.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">46</div>
+                <h2>CSS Flex Direction</h2>
+                <p>Demonstrate flex-direction.</p>
+                <a href="css-46.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">47</div>
+                <h2>Flex Wrap</h2>
+                <p>Demonstrate flex-wrap properties.</p>
+                <a href="css-47.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">48</div>
+                <h2>Flex Alignment</h2>
+                <p>Align items using Flexbox.</p>
+                <a href="css-48.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">49</div>
+                <h2>Grid Columns</h2>
+                <p>Create CSS Grid columns.</p>
+                <a href="css-49.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">50</div>
+                <h2>Grid Rows</h2>
+                <p>Create CSS Grid rows.</p>
+                <a href="css-50.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">51</div>
+                <h2>Grid Gap</h2>
+                <p>Use gap between grid items.</p>
+                <a href="css-51.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">52</div>
+                <h2>Grid Areas</h2>
+                <p>Create layouts using grid areas.</p>
+                <a href="css-52.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">53</div>
+                <h2>Transform 2D</h2>
+                <p>Rotate, scale, translate and skew.</p>
+                <a href="css-53.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">54</div>
+                <h2>Transform 3D</h2>
+                <p>Demonstrate 3D transformations.</p>
+                <a href="css-54.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">55</div>
+                <h2>CSS Perspective</h2>
+                <p>Use perspective for 3D effects.</p>
+                <a href="css-55.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">56</div>
+                <h2>CSS Filters</h2>
+                <p>Blur, brightness and other filters.</p>
+                <a href="css-56.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">57</div>
+                <h2>CSS Tooltips</h2>
+                <p>Create tooltips using CSS.</p>
+                <a href="css-57.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">58</div>
+                <h2>CSS Dropdown</h2>
+                <p>Create a dropdown menu using CSS.</p>
+                <a href="css-58.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">59</div>
+                <h2>CSS Image Gallery</h2>
+                <p>Create an image gallery using CSS.</p>
+                <a href="css-59.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">60</div>
+                <h2>CSS Card Design</h2>
+                <p>Create modern card layouts.</p>
+                <a href="css-60.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">61</div>
+                <h2>CSS Profile Card</h2>
+                <p>Create a profile card design.</p>
+                <a href="css-61.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">62</div>
+                <h2>CSS Login Page</h2>
+                <p>Design a login page using CSS.</p>
+                <a href="css-62.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">63</div>
+                <h2>CSS Landing Page</h2>
+                <p>Create a simple landing page.</p>
+                <a href="css-63.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">64</div>
+                <h2>CSS Portfolio</h2>
+                <p>Create a portfolio design using CSS.</p>
+                <a href="css-64.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">65</div>
+                <h2>CSS Responsive Website</h2>
+                <p>Create a complete responsive website.</p>
+                <a href="css-65.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">66</div>
+                <h2>CSS Transformations</h2>
+                <p>Demonstrate CSS transformation effects.</p>
+                <a href="css-66.html" class="btn">View Program →</a>
+            </div>
+
+            <div class="card">
+                <div class="number">67</div>
+                <h2>CSS Final Project</h2>
+                <p>Complete CSS practical demonstration.</p>
+                <a href="css-67.html" class="btn">View Program →</a>
+            </div>
+
+        </div>
+
+        <div class="home">
+            <a href="../index.html">🏠 Back to Main Home</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 CSS Practical Programs | Practical Project</p>
+    </footer>
+
+</body>
+
+</html>
